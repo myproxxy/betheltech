@@ -1,0 +1,92 @@
+,13359487,13568672,13141256,13161804,13183463
+Active_School_Zone_Fl,N,N,N,N,N
+Active_School_Zone_Fl_01,0,0,0,0,0
+Adt_Adj_Curnt_Amt,,,,,
+Adt_Curnt_Amt,,,,,
+Adt_Curnt_Year,,,,,
+Amend_Supp_Fl,N,N,N,N,N
+Amend_Supp_Fl_01,0,0,0,0,0
+At_Intrsct_Fl,N,N,N,Y,N
+At_Intrsct_Fl_01,0,0,0,1,0
+Cmv_Involv_Fl,N,N,Y,N,N
+Cmv_Involv_Fl_01,0,0,1,0,0
+Control,,,,,
+CrashDateFormated,2013-07-09 09:30:00,2013-11-16 00:00:00,2013-02-12 17:05:00,2013-02-26 13:35:00,2013-03-05 14:45:00
+Crash_Date,7/9/2013,11/16/2013,2/12/2013,2/26/2013,3/5/2013
+Crash_Fatal_Fl,N,N,N,N,N
+Crash_Fatal_Fl_01,0,0,0,0,0
+Crash_Speed_Limit,15,60,15,0,35
+Crash_Time,9:30 AM,12:00 AM,5:05 PM,1:35 PM,2:45 PM
+Day_of_Week,TUE,SAT,TUE,TUE,TUE
+Death_Cnt,0,0,0,0,0
+Dfo,,,,,
+Hp_Median_Width,,,,,
+Hp_Shldr_Left,,,,,
+Hp_Shldr_Right,,,,,
+Hwy_Nbr,,,,,
+Hwy_Sys,,,,,
+Incap_Injry_Cnt,0,0,0,0,0
+Investigat_Arrv_Time,10:15 AM,9:45 AM,5:10 PM,2:19 PM,3:04 PM
+Investigat_Comp_Fl,Y,N,Y,Y,Y
+Investigat_Comp_Fl_01,1,0,1,1,1
+Investigat_Notify_Meth,DISPATCHED,DISPATCHED,DISPATCHED,PHONE,ATASCOSA COUNTY S.O.
+Investigat_Notify_Time,9:35 AM,9:15 AM,5:08 PM,2:19 PM,2:52 PM
+Latitude,,,,,
+Located_Fl,N,N,N,N,N
+Located_Fl_01,0,0,0,0,0
+Longitude,,,,,
+Median_Width,,,,,
+Medical_Advisory_Fl,N,N,N,N,N
+Medical_Advisory_Fl_01,0,0,0,0,0
+Milepoint,,,,,
+Nbr_Of_Lane,,,,,
+Non_Injry_Cnt,2,0,1,2,0
+Nonincap_Injry_Cnt,0,0,0,0,0
+ORI_Number,,,TX2400500,TX0710200,
+Onsys_Fl,N,N,N,N,N
+Onsys_Fl_01,0,0,0,0,0
+Pct_Combo_Trk_Adt,,,,,
+Pct_Single_Trk_Adt,,,,,
+Poss_Injry_Cnt,0,0,0,0,0
+Private_Dr_Fl,Y,N,N,N,N
+Private_Dr_Fl_01,1,0,0,0,0
+Ref_Mark_Displ,,,,,
+Ref_Mark_Nbr,,,,,
+Report_Date,7/10/2013,11/24/2013,2/12/2013,2/26/2013,3/11/2013
+Road_Constr_Zone_Fl,N,N,N,N,N
+Road_Constr_Zone_Fl_01,0,0,0,0,0
+Road_Constr_Zone_Wrkr_Fl,N,N,N,N,N
+Road_Constr_Zone_Wrkr_Fl_01,0,0,0,0,0
+Roadbed_Width,,,,,
+Row_Width_Usual,,,,,
+Rpt_Block_Num,,,,,
+Rpt_Hwy_Num,,,,,
+Rpt_Outside_City_Limit_Fl,N,Y,N,N,Y
+Rpt_Outside_City_Limit_Fl_01,0,1,0,0,1
+Rpt_Sec_Block_Num,,,,,
+Rpt_Sec_Street_Name,NOT REPORTED,9 12,LAREDO COMMUNITY COLLEGE ROADWAY,VISCOUNT BLVD EB,NOT REPORTED
+Rpt_Sec_Street_Sfx,,,,,
+Rpt_Street_Name,PARKING LOT,D 12,LAREDO COMMUNITY COLLEGE ROADWAY,AIRWAY BLVD NB,BLUNZER
+Rpt_Street_Sfx,,,,,RD
+Rr_Relat_Fl,N,N,N,N,N
+Rr_Relat_Fl_01,0,0,0,0,0
+Rural_Fl,N,Y,N,N,Y
+Rural_Fl_01,0,1,0,0,1
+Schl_Bus_Fl,N,N,N,N,N
+Schl_Bus_Fl_01,0,0,0,0,0
+Section,,,,,
+Shldr_Width_Left,,,,,
+Shldr_Width_Right,,,,,
+Street_Name,PARKING LOT,E D 12,LAREDO COMMUNITY COLLEGE ROADWAY,AIRWAY BLVD NB,BLUNZER RD
+Street_Name_2,,,,,
+Street_Nbr,,,,,
+Surf_Width,,,,,
+Thousand_Damage_Fl,Y,Y,N,Y,Y
+Thousand_Damage_Fl_01,1,1,0,1,1
+Toll_Road_Fl,N,N,N,N,N
+Toll_Road_Fl_01,0,0,0,0,0
+Tot_Injry_Cnt,0,0,0,0,0
+Trk_Aadt_Pct,,,,,
+Txdot_Rptable_Fl,N,Y,N,Y,Y
+Txdot_Rptable_Fl_01,0,1,0,1,1
+Unkn_Injry_Cnt,0,1,0,0,1

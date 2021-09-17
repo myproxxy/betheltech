@@ -1,0 +1,2419 @@
+root - INFO - 2021-09-16 18:32:23.526698
+root - INFO - Number of Records: 5258, Number of Columns: 171
+root - INFO - 
+Total count of rows in Dataframe: 5258
+numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+root - INFO - 
+thinned out dataframe by removing all columns with a certain substring. In this case: _ID
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+2  13056784              N             N           N           N   
+3  13057545              N             N           N           N   
+4  13060207              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+2                   N             N                     N   1/2/2013   
+3                   N             N                     N   1/1/2013   
+4                   N             N                     N   1/5/2013   
+
+  Crash_Time Local_Use Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl  \
+0    8:40 AM      3360                         N                  Y   
+1    5:00 PM      4240                         N                  Y   
+2    1:50 PM       NaN                         N                  Y   
+3   10:20 AM       NaN                         N                  Y   
+4    2:44 PM       NaN                         N                  Y   
+
+   Rpt_Latitude  Rpt_Longitude Rpt_Hwy_Num Rpt_Hwy_Sfx Rpt_Block_Num  \
+0           NaN            NaN         NaN         NaN          5900   
+1           NaN            NaN        2700         NaN          2700   
+2           NaN            NaN         NaN         NaN          3500   
+3           NaN            NaN         NaN         NaN           500   
+4           NaN            NaN          59         NaN           800   
+
+  Rpt_Street_Pfx Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0            NaN    CASTLE CROSS            NaN             N            N   
+1              N   INTERSTATE 37            NaN             N            N   
+2              N        TERMINAL             RD             N            N   
+3            NaN        PATRICIA             ST             N            N   
+4              N      TIMBERLAND             DR             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+2                 30                   N                        N   
+3                 30                   N                        N   
+4                 40                   N                        N   
+
+  Rpt_Street_Desc At_Intrsct_Fl Rpt_Sec_Hwy_Num Rpt_Sec_Hwy_Sfx  \
+0             NaN             Y             NaN             NaN   
+1   INTERSTATE 37             N             NaN             NaN   
+2        CONCRETE             N             NaN             NaN   
+3             NaN             N             NaN             NaN   
+4             NaN             Y             NaN             NaN   
+
+  Rpt_Sec_Block_Num Rpt_Sec_Street_Pfx Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0              4700                NaN        CASTLE CROSS                NaN   
+1               500                NaN                FAIR                AVE   
+2              3600                  S            TERMINAL                 RD   
+3               NaN                NaN            BROADWAY                NaN   
+4               500                  E              LAUREL                 ST   
+
+   Rpt_Ref_Mark_Offset_Amt Rpt_Ref_Mark_Dist_Uom Rpt_Ref_Mark_Dir  \
+0                      NaN                   NaN              NaN   
+1                      NaN                   NaN              NaN   
+2                      NaN                   NaN              NaN   
+3                      NaN                   NaN              NaN   
+4                      NaN                   NaN              NaN   
+
+  Rpt_Ref_Mark_Nbr Rpt_Sec_Street_Desc Rpt_CrossingNumber  \
+0              NaN                 NaN                NaN   
+1              NaN        500 FAIR AVE                NaN   
+2              NaN                 NaN                NaN   
+3              NaN                 NaN                NaN   
+4              NaN                 NaN                NaN   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+2                2:20 PM             DISPATCHED              2:23 PM   
+3               10:23 AM               DISPATCH             10:33 AM   
+4                2:44 PM             DISPATCHED              2:54 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+2    1/2/2013                  Y  TXHPD0000  29.987425 -95.337293     NaN   
+3    1/1/2013                  Y  TX1050100  29.862267 -97.945531     NaN   
+4    1/5/2013                  Y  TX0030400  31.347057 -94.719972      BU   
+
+  Hwy_Nbr Hwy_Sfx      Dfo      Street_Name  Street_Nbr  Control  Section  \
+0     NaN     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN   
+1      37     NaN  138.641           IH0037         NaN     73.0      8.0   
+2     NaN     NaN      NaN    N TERMINAL RD      3500.0      NaN      NaN   
+3     NaN     NaN      NaN      PATRICIA DR       513.0      NaN      NaN   
+4      59       G    1.750          BU0059G       898.0    176.0      2.0   
+
+   Milepoint Ref_Mark_Nbr  Ref_Mark_Displ Hwy_Sys_2 Hwy_Nbr_2 Hwy_Sfx_2  \
+0        NaN          NaN             NaN       NaN       NaN       NaN   
+1      8.199          139          -0.156       NaN       NaN       NaN   
+2        NaN          NaN             NaN       NaN       NaN       NaN   
+3        NaN          NaN             NaN       NaN       NaN       NaN   
+4      7.782          388          -0.221       NaN       NaN       NaN   
+
+  Street_Name_2  Street_Nbr_2  Control_2  Section_2  Milepoint_2  \
+0       UNKNOWN           NaN        NaN        NaN          NaN   
+1           NaN           NaN        NaN        NaN          NaN   
+2           NaN           NaN        NaN        NaN          NaN   
+3           NaN           NaN        NaN        NaN          NaN   
+4  E LAUREL AVE           NaN        NaN        NaN          NaN   
+
+  Txdot_Rptable_Fl Onsys_Fl Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  \
+0                Y        N        N          Y         THU            NaN   
+1                Y        Y        N          Y         WED           10.0   
+2                Y        N        N          Y         WED            NaN   
+3                Y        N        N          Y         TUE            NaN   
+4                Y        Y        N          Y         SAT            2.0   
+
+   Hp_Shldr_Right  Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  \
+0             NaN              NaN          NaN              NaN   
+1            10.0             60.0          8.0            360.0   
+2             NaN              NaN          NaN              NaN   
+3             NaN              NaN          NaN              NaN   
+4             2.0              0.0          4.0            120.0   
+
+   Roadbed_Width  Surf_Width  Shldr_Width_Left  Shldr_Width_Right  \
+0            NaN         NaN               NaN                NaN   
+1          136.0        96.0              20.0               20.0   
+2            NaN         NaN               NaN                NaN   
+3            NaN         NaN               NaN                NaN   
+4           65.0        60.0               2.0                2.0   
+
+   Median_Width  Adt_Curnt_Amt  Adt_Curnt_Year  Adt_Adj_Curnt_Amt  \
+0           NaN            NaN             NaN                NaN   
+1          40.0       121569.0          2014.0           121569.0   
+2           NaN            NaN             NaN                NaN   
+3           NaN            NaN             NaN                NaN   
+4           0.0        12828.0          2014.0            12828.0   
+
+   Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  Trk_Aadt_Pct  Curve_Lngth  Cd_Degr  \
+0                 NaN                NaN           NaN          NaN      NaN   
+1                 2.3                1.4           3.7          NaN      NaN   
+2                 NaN                NaN           NaN          NaN      NaN   
+3                 NaN                NaN           NaN          NaN      NaN   
+4                 2.9               18.5          21.4          NaN      NaN   
+
+   Dd_Degr  Feature_Crossed  Structure_Number  I_R_Min_Vert_Clear  \
+0      NaN              NaN               NaN                 NaN   
+1      NaN              NaN               NaN                 NaN   
+2      NaN              NaN               NaN                 NaN   
+3      NaN              NaN               NaN                 NaN   
+4      NaN              NaN               NaN                 NaN   
+
+   Approach_Width  Bridge_Loading_In_1000_Lbs  Roadway_Width  Deck_Width  \
+0             NaN                         NaN            NaN         NaN   
+1             NaN                         NaN            NaN         NaN   
+2             NaN                         NaN            NaN         NaN   
+3             NaN                         NaN            NaN         NaN   
+4             NaN                         NaN            NaN         NaN   
+
+  CrossingNumber RRCo  Standstop  Yield  Incap_Injry_Cnt  Nonincap_Injry_Cnt  \
+0            NaN  NaN        NaN    NaN                0                   0   
+1            NaN  NaN        NaN    NaN                0                   0   
+2            NaN  NaN        NaN    NaN                0                   0   
+3            NaN  NaN        NaN    NaN                0                   0   
+4            NaN  NaN        NaN    NaN                0                   0   
+
+   Poss_Injry_Cnt  Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0               0              1               1              0          0   
+1               0              2               0              0          0   
+2               0              2               0              0          0   
+3               0              1               0              0          0   
+4               0              4               0              0          0   
+
+   Investigator_Narrative   CrashDateFormated  Crash_Fatal_Fl_01  \
+0                     NaN 2013-01-03 08:40:00                  0   
+1                     NaN 2013-01-02 17:00:00                  0   
+2                     NaN 2013-01-02 13:50:00                  0   
+3                     NaN 2013-01-01 10:20:00                  0   
+4                     NaN 2013-01-05 14:44:00                  0   
+
+   Cmv_Involv_Fl_01  Schl_Bus_Fl_01  Rr_Relat_Fl_01  Medical_Advisory_Fl_01  \
+0                 0               0               0                       0   
+1                 0               0               0                       0   
+2                 0               0               0                       0   
+3                 0               0               0                       0   
+4                 0               0               0                       0   
+
+   Amend_Supp_Fl_01  Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                 0                         0                             0   
+1                 0                         0                             0   
+2                 0                         0                             0   
+3                 0                         0                             0   
+4                 0                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+2                      1                 0                0   
+3                      1                 0                0   
+4                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+2                       0                            0                 0   
+3                       0                            0                 0   
+4                       0                            0                 1   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+2                      1                    1            0            0   
+3                      1                    1            0            0   
+4                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+2              1  
+3              1  
+4              1  
+root - INFO - 130
+root - WARNING - ***************************************************************************
+root - WARNING - ATTENTION: THERE IS NO SUBSET OF DATAFRAME WITHOUT ANY MISSING VALUE!!
+root - WARNING - ***************************************************************************
+root - INFO - 
+remove variables that have too many empty values optional threshold parameter in %; if not given default of 50 is used; in this case: 40
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+2  13056784              N             N           N           N   
+3  13057545              N             N           N           N   
+4  13060207              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+2                   N             N                     N   1/2/2013   
+3                   N             N                     N   1/1/2013   
+4                   N             N                     N   1/5/2013   
+
+  Crash_Time Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl Rpt_Hwy_Num  \
+0    8:40 AM                         N                  Y         NaN   
+1    5:00 PM                         N                  Y        2700   
+2    1:50 PM                         N                  Y         NaN   
+3   10:20 AM                         N                  Y         NaN   
+4    2:44 PM                         N                  Y          59   
+
+  Rpt_Block_Num Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0          5900    CASTLE CROSS            NaN             N            N   
+1          2700   INTERSTATE 37            NaN             N            N   
+2          3500        TERMINAL             RD             N            N   
+3           500        PATRICIA             ST             N            N   
+4           800      TIMBERLAND             DR             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+2                 30                   N                        N   
+3                 30                   N                        N   
+4                 40                   N                        N   
+
+  At_Intrsct_Fl Rpt_Sec_Block_Num Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0             Y              4700        CASTLE CROSS                NaN   
+1             N               500                FAIR                AVE   
+2             N              3600            TERMINAL                 RD   
+3             N               NaN            BROADWAY                NaN   
+4             Y               500              LAUREL                 ST   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+2                2:20 PM             DISPATCHED              2:23 PM   
+3               10:23 AM               DISPATCH             10:33 AM   
+4                2:44 PM             DISPATCHED              2:54 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+2    1/2/2013                  Y  TXHPD0000  29.987425 -95.337293     NaN   
+3    1/1/2013                  Y  TX1050100  29.862267 -97.945531     NaN   
+4    1/5/2013                  Y  TX0030400  31.347057 -94.719972      BU   
+
+  Hwy_Nbr      Dfo      Street_Name  Street_Nbr  Control  Section  Milepoint  \
+0     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN        NaN   
+1      37  138.641           IH0037         NaN     73.0      8.0      8.199   
+2     NaN      NaN    N TERMINAL RD      3500.0      NaN      NaN        NaN   
+3     NaN      NaN      PATRICIA DR       513.0      NaN      NaN        NaN   
+4      59    1.750          BU0059G       898.0    176.0      2.0      7.782   
+
+  Ref_Mark_Nbr  Ref_Mark_Displ Street_Name_2 Txdot_Rptable_Fl Onsys_Fl  \
+0          NaN             NaN       UNKNOWN                Y        N   
+1          139          -0.156           NaN                Y        Y   
+2          NaN             NaN           NaN                Y        N   
+3          NaN             NaN           NaN                Y        N   
+4          388          -0.221  E LAUREL AVE                Y        Y   
+
+  Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  Hp_Shldr_Right  \
+0        N          Y         THU            NaN             NaN   
+1        N          Y         WED           10.0            10.0   
+2        N          Y         WED            NaN             NaN   
+3        N          Y         TUE            NaN             NaN   
+4        N          Y         SAT            2.0             2.0   
+
+   Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  Roadbed_Width  Surf_Width  \
+0              NaN          NaN              NaN            NaN         NaN   
+1             60.0          8.0            360.0          136.0        96.0   
+2              NaN          NaN              NaN            NaN         NaN   
+3              NaN          NaN              NaN            NaN         NaN   
+4              0.0          4.0            120.0           65.0        60.0   
+
+   Shldr_Width_Left  Shldr_Width_Right  Median_Width  Adt_Curnt_Amt  \
+0               NaN                NaN           NaN            NaN   
+1              20.0               20.0          40.0       121569.0   
+2               NaN                NaN           NaN            NaN   
+3               NaN                NaN           NaN            NaN   
+4               2.0                2.0           0.0        12828.0   
+
+   Adt_Curnt_Year  Adt_Adj_Curnt_Amt  Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  \
+0             NaN                NaN                 NaN                NaN   
+1          2014.0           121569.0                 2.3                1.4   
+2             NaN                NaN                 NaN                NaN   
+3             NaN                NaN                 NaN                NaN   
+4          2014.0            12828.0                 2.9               18.5   
+
+   Trk_Aadt_Pct  Incap_Injry_Cnt  Nonincap_Injry_Cnt  Poss_Injry_Cnt  \
+0           NaN                0                   0               0   
+1           3.7                0                   0               0   
+2           NaN                0                   0               0   
+3           NaN                0                   0               0   
+4          21.4                0                   0               0   
+
+   Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0              1               1              0          0   
+1              2               0              0          0   
+2              2               0              0          0   
+3              1               0              0          0   
+4              4               0              0          0   
+
+    CrashDateFormated  Crash_Fatal_Fl_01  Cmv_Involv_Fl_01  Schl_Bus_Fl_01  \
+0 2013-01-03 08:40:00                  0                 0               0   
+1 2013-01-02 17:00:00                  0                 0               0   
+2 2013-01-02 13:50:00                  0                 0               0   
+3 2013-01-01 10:20:00                  0                 0               0   
+4 2013-01-05 14:44:00                  0                 0               0   
+
+   Rr_Relat_Fl_01  Medical_Advisory_Fl_01  Amend_Supp_Fl_01  \
+0               0                       0                 0   
+1               0                       0                 0   
+2               0                       0                 0   
+3               0                       0                 0   
+4               0                       0                 0   
+
+   Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                         0                             0   
+1                         0                             0   
+2                         0                             0   
+3                         0                             0   
+4                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+2                      1                 0                0   
+3                      1                 0                0   
+4                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+2                       0                            0                 0   
+3                       0                            0                 0   
+4                       0                            0                 1   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+2                      1                    1            0            0   
+3                      1                    1            0            0   
+4                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+2              1  
+3              1  
+4              1  
+root - INFO - 92
+root - INFO - 
+Scatterplot
+root - INFO - 
+starting matrix
+root - INFO - matrix done
+root - INFO - None
+root - INFO - Scatterplot done
+root - INFO - 
+Total count of rows in Dataframe: 5258
+root - INFO - 
+Total count of rows in Dataframe: 5258
+root - INFO - 
+
+
+***************************************************************************
+root - INFO - Finished
+root - INFO - 2021-09-16 18:36:05.380560
+root - INFO - Number of Records: 5258, Number of Columns: 171
+root - INFO - 
+Total count of rows in Dataframe: 5258
+numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+root - INFO - 
+thinned out dataframe by removing all columns with a certain substring. In this case: _ID
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+2  13056784              N             N           N           N   
+3  13057545              N             N           N           N   
+4  13060207              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+2                   N             N                     N   1/2/2013   
+3                   N             N                     N   1/1/2013   
+4                   N             N                     N   1/5/2013   
+
+  Crash_Time Local_Use Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl  \
+0    8:40 AM      3360                         N                  Y   
+1    5:00 PM      4240                         N                  Y   
+2    1:50 PM       NaN                         N                  Y   
+3   10:20 AM       NaN                         N                  Y   
+4    2:44 PM       NaN                         N                  Y   
+
+   Rpt_Latitude  Rpt_Longitude Rpt_Hwy_Num Rpt_Hwy_Sfx Rpt_Block_Num  \
+0           NaN            NaN         NaN         NaN          5900   
+1           NaN            NaN        2700         NaN          2700   
+2           NaN            NaN         NaN         NaN          3500   
+3           NaN            NaN         NaN         NaN           500   
+4           NaN            NaN          59         NaN           800   
+
+  Rpt_Street_Pfx Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0            NaN    CASTLE CROSS            NaN             N            N   
+1              N   INTERSTATE 37            NaN             N            N   
+2              N        TERMINAL             RD             N            N   
+3            NaN        PATRICIA             ST             N            N   
+4              N      TIMBERLAND             DR             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+2                 30                   N                        N   
+3                 30                   N                        N   
+4                 40                   N                        N   
+
+  Rpt_Street_Desc At_Intrsct_Fl Rpt_Sec_Hwy_Num Rpt_Sec_Hwy_Sfx  \
+0             NaN             Y             NaN             NaN   
+1   INTERSTATE 37             N             NaN             NaN   
+2        CONCRETE             N             NaN             NaN   
+3             NaN             N             NaN             NaN   
+4             NaN             Y             NaN             NaN   
+
+  Rpt_Sec_Block_Num Rpt_Sec_Street_Pfx Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0              4700                NaN        CASTLE CROSS                NaN   
+1               500                NaN                FAIR                AVE   
+2              3600                  S            TERMINAL                 RD   
+3               NaN                NaN            BROADWAY                NaN   
+4               500                  E              LAUREL                 ST   
+
+   Rpt_Ref_Mark_Offset_Amt Rpt_Ref_Mark_Dist_Uom Rpt_Ref_Mark_Dir  \
+0                      NaN                   NaN              NaN   
+1                      NaN                   NaN              NaN   
+2                      NaN                   NaN              NaN   
+3                      NaN                   NaN              NaN   
+4                      NaN                   NaN              NaN   
+
+  Rpt_Ref_Mark_Nbr Rpt_Sec_Street_Desc Rpt_CrossingNumber  \
+0              NaN                 NaN                NaN   
+1              NaN        500 FAIR AVE                NaN   
+2              NaN                 NaN                NaN   
+3              NaN                 NaN                NaN   
+4              NaN                 NaN                NaN   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+2                2:20 PM             DISPATCHED              2:23 PM   
+3               10:23 AM               DISPATCH             10:33 AM   
+4                2:44 PM             DISPATCHED              2:54 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+2    1/2/2013                  Y  TXHPD0000  29.987425 -95.337293     NaN   
+3    1/1/2013                  Y  TX1050100  29.862267 -97.945531     NaN   
+4    1/5/2013                  Y  TX0030400  31.347057 -94.719972      BU   
+
+  Hwy_Nbr Hwy_Sfx      Dfo      Street_Name  Street_Nbr  Control  Section  \
+0     NaN     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN   
+1      37     NaN  138.641           IH0037         NaN     73.0      8.0   
+2     NaN     NaN      NaN    N TERMINAL RD      3500.0      NaN      NaN   
+3     NaN     NaN      NaN      PATRICIA DR       513.0      NaN      NaN   
+4      59       G    1.750          BU0059G       898.0    176.0      2.0   
+
+   Milepoint Ref_Mark_Nbr  Ref_Mark_Displ Hwy_Sys_2 Hwy_Nbr_2 Hwy_Sfx_2  \
+0        NaN          NaN             NaN       NaN       NaN       NaN   
+1      8.199          139          -0.156       NaN       NaN       NaN   
+2        NaN          NaN             NaN       NaN       NaN       NaN   
+3        NaN          NaN             NaN       NaN       NaN       NaN   
+4      7.782          388          -0.221       NaN       NaN       NaN   
+
+  Street_Name_2  Street_Nbr_2  Control_2  Section_2  Milepoint_2  \
+0       UNKNOWN           NaN        NaN        NaN          NaN   
+1           NaN           NaN        NaN        NaN          NaN   
+2           NaN           NaN        NaN        NaN          NaN   
+3           NaN           NaN        NaN        NaN          NaN   
+4  E LAUREL AVE           NaN        NaN        NaN          NaN   
+
+  Txdot_Rptable_Fl Onsys_Fl Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  \
+0                Y        N        N          Y         THU            NaN   
+1                Y        Y        N          Y         WED           10.0   
+2                Y        N        N          Y         WED            NaN   
+3                Y        N        N          Y         TUE            NaN   
+4                Y        Y        N          Y         SAT            2.0   
+
+   Hp_Shldr_Right  Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  \
+0             NaN              NaN          NaN              NaN   
+1            10.0             60.0          8.0            360.0   
+2             NaN              NaN          NaN              NaN   
+3             NaN              NaN          NaN              NaN   
+4             2.0              0.0          4.0            120.0   
+
+   Roadbed_Width  Surf_Width  Shldr_Width_Left  Shldr_Width_Right  \
+0            NaN         NaN               NaN                NaN   
+1          136.0        96.0              20.0               20.0   
+2            NaN         NaN               NaN                NaN   
+3            NaN         NaN               NaN                NaN   
+4           65.0        60.0               2.0                2.0   
+
+   Median_Width  Adt_Curnt_Amt  Adt_Curnt_Year  Adt_Adj_Curnt_Amt  \
+0           NaN            NaN             NaN                NaN   
+1          40.0       121569.0          2014.0           121569.0   
+2           NaN            NaN             NaN                NaN   
+3           NaN            NaN             NaN                NaN   
+4           0.0        12828.0          2014.0            12828.0   
+
+   Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  Trk_Aadt_Pct  Curve_Lngth  Cd_Degr  \
+0                 NaN                NaN           NaN          NaN      NaN   
+1                 2.3                1.4           3.7          NaN      NaN   
+2                 NaN                NaN           NaN          NaN      NaN   
+3                 NaN                NaN           NaN          NaN      NaN   
+4                 2.9               18.5          21.4          NaN      NaN   
+
+   Dd_Degr  Feature_Crossed  Structure_Number  I_R_Min_Vert_Clear  \
+0      NaN              NaN               NaN                 NaN   
+1      NaN              NaN               NaN                 NaN   
+2      NaN              NaN               NaN                 NaN   
+3      NaN              NaN               NaN                 NaN   
+4      NaN              NaN               NaN                 NaN   
+
+   Approach_Width  Bridge_Loading_In_1000_Lbs  Roadway_Width  Deck_Width  \
+0             NaN                         NaN            NaN         NaN   
+1             NaN                         NaN            NaN         NaN   
+2             NaN                         NaN            NaN         NaN   
+3             NaN                         NaN            NaN         NaN   
+4             NaN                         NaN            NaN         NaN   
+
+  CrossingNumber RRCo  Standstop  Yield  Incap_Injry_Cnt  Nonincap_Injry_Cnt  \
+0            NaN  NaN        NaN    NaN                0                   0   
+1            NaN  NaN        NaN    NaN                0                   0   
+2            NaN  NaN        NaN    NaN                0                   0   
+3            NaN  NaN        NaN    NaN                0                   0   
+4            NaN  NaN        NaN    NaN                0                   0   
+
+   Poss_Injry_Cnt  Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0               0              1               1              0          0   
+1               0              2               0              0          0   
+2               0              2               0              0          0   
+3               0              1               0              0          0   
+4               0              4               0              0          0   
+
+   Investigator_Narrative   CrashDateFormated  Crash_Fatal_Fl_01  \
+0                     NaN 2013-01-03 08:40:00                  0   
+1                     NaN 2013-01-02 17:00:00                  0   
+2                     NaN 2013-01-02 13:50:00                  0   
+3                     NaN 2013-01-01 10:20:00                  0   
+4                     NaN 2013-01-05 14:44:00                  0   
+
+   Cmv_Involv_Fl_01  Schl_Bus_Fl_01  Rr_Relat_Fl_01  Medical_Advisory_Fl_01  \
+0                 0               0               0                       0   
+1                 0               0               0                       0   
+2                 0               0               0                       0   
+3                 0               0               0                       0   
+4                 0               0               0                       0   
+
+   Amend_Supp_Fl_01  Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                 0                         0                             0   
+1                 0                         0                             0   
+2                 0                         0                             0   
+3                 0                         0                             0   
+4                 0                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+2                      1                 0                0   
+3                      1                 0                0   
+4                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+2                       0                            0                 0   
+3                       0                            0                 0   
+4                       0                            0                 1   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+2                      1                    1            0            0   
+3                      1                    1            0            0   
+4                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+2              1  
+3              1  
+4              1  
+root - INFO - 130
+root - WARNING - ***************************************************************************
+root - WARNING - ATTENTION: THERE IS NO SUBSET OF DATAFRAME WITHOUT ANY MISSING VALUE!!
+root - WARNING - ***************************************************************************
+root - INFO - 
+remove variables that have too many empty values optional threshold parameter in %; if not given default of 50 is used; in this case: 40%
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+
+  Crash_Time Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl Rpt_Hwy_Num  \
+0    8:40 AM                         N                  Y         NaN   
+1    5:00 PM                         N                  Y        2700   
+
+  Rpt_Block_Num Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0          5900    CASTLE CROSS            NaN             N            N   
+1          2700   INTERSTATE 37            NaN             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+
+  At_Intrsct_Fl Rpt_Sec_Block_Num Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0             Y              4700        CASTLE CROSS                NaN   
+1             N               500                FAIR                AVE   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+
+  Hwy_Nbr      Dfo      Street_Name  Street_Nbr  Control  Section  Milepoint  \
+0     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN        NaN   
+1      37  138.641           IH0037         NaN     73.0      8.0      8.199   
+
+  Ref_Mark_Nbr  Ref_Mark_Displ Street_Name_2 Txdot_Rptable_Fl Onsys_Fl  \
+0          NaN             NaN       UNKNOWN                Y        N   
+1          139          -0.156           NaN                Y        Y   
+
+  Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  Hp_Shldr_Right  \
+0        N          Y         THU            NaN             NaN   
+1        N          Y         WED           10.0            10.0   
+
+   Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  Roadbed_Width  Surf_Width  \
+0              NaN          NaN              NaN            NaN         NaN   
+1             60.0          8.0            360.0          136.0        96.0   
+
+   Shldr_Width_Left  Shldr_Width_Right  Median_Width  Adt_Curnt_Amt  \
+0               NaN                NaN           NaN            NaN   
+1              20.0               20.0          40.0       121569.0   
+
+   Adt_Curnt_Year  Adt_Adj_Curnt_Amt  Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  \
+0             NaN                NaN                 NaN                NaN   
+1          2014.0           121569.0                 2.3                1.4   
+
+   Trk_Aadt_Pct  Incap_Injry_Cnt  Nonincap_Injry_Cnt  Poss_Injry_Cnt  \
+0           NaN                0                   0               0   
+1           3.7                0                   0               0   
+
+   Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0              1               1              0          0   
+1              2               0              0          0   
+
+    CrashDateFormated  Crash_Fatal_Fl_01  Cmv_Involv_Fl_01  Schl_Bus_Fl_01  \
+0 2013-01-03 08:40:00                  0                 0               0   
+1 2013-01-02 17:00:00                  0                 0               0   
+
+   Rr_Relat_Fl_01  Medical_Advisory_Fl_01  Amend_Supp_Fl_01  \
+0               0                       0                 0   
+1               0                       0                 0   
+
+   Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                         0                             0   
+1                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+root - INFO - Remaining number of columns after thinning out: 92
+root - INFO - 
+Scatterplot
+root - INFO - 
+starting matrix
+root - INFO - matrix done
+root - INFO - None
+root - INFO - Scatterplot done
+root - INFO - 
+Total count of rows in Dataframe: 5258
+root - INFO - 
+Total count of rows in Dataframe: 5258
+root - INFO - 
+
+
+***************************************************************************
+root - INFO - Finished
+root - INFO - 2021-09-16 18:43:18.119173
+root - INFO - Number of Records: 5258, Number of Columns: 171
+root - INFO - 
+Total count of rows in Dataframe: 5258
+numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+root - INFO - 
+thinned out dataframe by removing all columns with a certain substring. In this case: _ID
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+2  13056784              N             N           N           N   
+3  13057545              N             N           N           N   
+4  13060207              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+2                   N             N                     N   1/2/2013   
+3                   N             N                     N   1/1/2013   
+4                   N             N                     N   1/5/2013   
+
+  Crash_Time Local_Use Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl  \
+0    8:40 AM      3360                         N                  Y   
+1    5:00 PM      4240                         N                  Y   
+2    1:50 PM       NaN                         N                  Y   
+3   10:20 AM       NaN                         N                  Y   
+4    2:44 PM       NaN                         N                  Y   
+
+   Rpt_Latitude  Rpt_Longitude Rpt_Hwy_Num Rpt_Hwy_Sfx Rpt_Block_Num  \
+0           NaN            NaN         NaN         NaN          5900   
+1           NaN            NaN        2700         NaN          2700   
+2           NaN            NaN         NaN         NaN          3500   
+3           NaN            NaN         NaN         NaN           500   
+4           NaN            NaN          59         NaN           800   
+
+  Rpt_Street_Pfx Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0            NaN    CASTLE CROSS            NaN             N            N   
+1              N   INTERSTATE 37            NaN             N            N   
+2              N        TERMINAL             RD             N            N   
+3            NaN        PATRICIA             ST             N            N   
+4              N      TIMBERLAND             DR             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+2                 30                   N                        N   
+3                 30                   N                        N   
+4                 40                   N                        N   
+
+  Rpt_Street_Desc At_Intrsct_Fl Rpt_Sec_Hwy_Num Rpt_Sec_Hwy_Sfx  \
+0             NaN             Y             NaN             NaN   
+1   INTERSTATE 37             N             NaN             NaN   
+2        CONCRETE             N             NaN             NaN   
+3             NaN             N             NaN             NaN   
+4             NaN             Y             NaN             NaN   
+
+  Rpt_Sec_Block_Num Rpt_Sec_Street_Pfx Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0              4700                NaN        CASTLE CROSS                NaN   
+1               500                NaN                FAIR                AVE   
+2              3600                  S            TERMINAL                 RD   
+3               NaN                NaN            BROADWAY                NaN   
+4               500                  E              LAUREL                 ST   
+
+   Rpt_Ref_Mark_Offset_Amt Rpt_Ref_Mark_Dist_Uom Rpt_Ref_Mark_Dir  \
+0                      NaN                   NaN              NaN   
+1                      NaN                   NaN              NaN   
+2                      NaN                   NaN              NaN   
+3                      NaN                   NaN              NaN   
+4                      NaN                   NaN              NaN   
+
+  Rpt_Ref_Mark_Nbr Rpt_Sec_Street_Desc Rpt_CrossingNumber  \
+0              NaN                 NaN                NaN   
+1              NaN        500 FAIR AVE                NaN   
+2              NaN                 NaN                NaN   
+3              NaN                 NaN                NaN   
+4              NaN                 NaN                NaN   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+2                2:20 PM             DISPATCHED              2:23 PM   
+3               10:23 AM               DISPATCH             10:33 AM   
+4                2:44 PM             DISPATCHED              2:54 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+2    1/2/2013                  Y  TXHPD0000  29.987425 -95.337293     NaN   
+3    1/1/2013                  Y  TX1050100  29.862267 -97.945531     NaN   
+4    1/5/2013                  Y  TX0030400  31.347057 -94.719972      BU   
+
+  Hwy_Nbr Hwy_Sfx      Dfo      Street_Name  Street_Nbr  Control  Section  \
+0     NaN     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN   
+1      37     NaN  138.641           IH0037         NaN     73.0      8.0   
+2     NaN     NaN      NaN    N TERMINAL RD      3500.0      NaN      NaN   
+3     NaN     NaN      NaN      PATRICIA DR       513.0      NaN      NaN   
+4      59       G    1.750          BU0059G       898.0    176.0      2.0   
+
+   Milepoint Ref_Mark_Nbr  Ref_Mark_Displ Hwy_Sys_2 Hwy_Nbr_2 Hwy_Sfx_2  \
+0        NaN          NaN             NaN       NaN       NaN       NaN   
+1      8.199          139          -0.156       NaN       NaN       NaN   
+2        NaN          NaN             NaN       NaN       NaN       NaN   
+3        NaN          NaN             NaN       NaN       NaN       NaN   
+4      7.782          388          -0.221       NaN       NaN       NaN   
+
+  Street_Name_2  Street_Nbr_2  Control_2  Section_2  Milepoint_2  \
+0       UNKNOWN           NaN        NaN        NaN          NaN   
+1           NaN           NaN        NaN        NaN          NaN   
+2           NaN           NaN        NaN        NaN          NaN   
+3           NaN           NaN        NaN        NaN          NaN   
+4  E LAUREL AVE           NaN        NaN        NaN          NaN   
+
+  Txdot_Rptable_Fl Onsys_Fl Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  \
+0                Y        N        N          Y         THU            NaN   
+1                Y        Y        N          Y         WED           10.0   
+2                Y        N        N          Y         WED            NaN   
+3                Y        N        N          Y         TUE            NaN   
+4                Y        Y        N          Y         SAT            2.0   
+
+   Hp_Shldr_Right  Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  \
+0             NaN              NaN          NaN              NaN   
+1            10.0             60.0          8.0            360.0   
+2             NaN              NaN          NaN              NaN   
+3             NaN              NaN          NaN              NaN   
+4             2.0              0.0          4.0            120.0   
+
+   Roadbed_Width  Surf_Width  Shldr_Width_Left  Shldr_Width_Right  \
+0            NaN         NaN               NaN                NaN   
+1          136.0        96.0              20.0               20.0   
+2            NaN         NaN               NaN                NaN   
+3            NaN         NaN               NaN                NaN   
+4           65.0        60.0               2.0                2.0   
+
+   Median_Width  Adt_Curnt_Amt  Adt_Curnt_Year  Adt_Adj_Curnt_Amt  \
+0           NaN            NaN             NaN                NaN   
+1          40.0       121569.0          2014.0           121569.0   
+2           NaN            NaN             NaN                NaN   
+3           NaN            NaN             NaN                NaN   
+4           0.0        12828.0          2014.0            12828.0   
+
+   Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  Trk_Aadt_Pct  Curve_Lngth  Cd_Degr  \
+0                 NaN                NaN           NaN          NaN      NaN   
+1                 2.3                1.4           3.7          NaN      NaN   
+2                 NaN                NaN           NaN          NaN      NaN   
+3                 NaN                NaN           NaN          NaN      NaN   
+4                 2.9               18.5          21.4          NaN      NaN   
+
+   Dd_Degr  Feature_Crossed  Structure_Number  I_R_Min_Vert_Clear  \
+0      NaN              NaN               NaN                 NaN   
+1      NaN              NaN               NaN                 NaN   
+2      NaN              NaN               NaN                 NaN   
+3      NaN              NaN               NaN                 NaN   
+4      NaN              NaN               NaN                 NaN   
+
+   Approach_Width  Bridge_Loading_In_1000_Lbs  Roadway_Width  Deck_Width  \
+0             NaN                         NaN            NaN         NaN   
+1             NaN                         NaN            NaN         NaN   
+2             NaN                         NaN            NaN         NaN   
+3             NaN                         NaN            NaN         NaN   
+4             NaN                         NaN            NaN         NaN   
+
+  CrossingNumber RRCo  Standstop  Yield  Incap_Injry_Cnt  Nonincap_Injry_Cnt  \
+0            NaN  NaN        NaN    NaN                0                   0   
+1            NaN  NaN        NaN    NaN                0                   0   
+2            NaN  NaN        NaN    NaN                0                   0   
+3            NaN  NaN        NaN    NaN                0                   0   
+4            NaN  NaN        NaN    NaN                0                   0   
+
+   Poss_Injry_Cnt  Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0               0              1               1              0          0   
+1               0              2               0              0          0   
+2               0              2               0              0          0   
+3               0              1               0              0          0   
+4               0              4               0              0          0   
+
+   Investigator_Narrative   CrashDateFormated  Crash_Fatal_Fl_01  \
+0                     NaN 2013-01-03 08:40:00                  0   
+1                     NaN 2013-01-02 17:00:00                  0   
+2                     NaN 2013-01-02 13:50:00                  0   
+3                     NaN 2013-01-01 10:20:00                  0   
+4                     NaN 2013-01-05 14:44:00                  0   
+
+   Cmv_Involv_Fl_01  Schl_Bus_Fl_01  Rr_Relat_Fl_01  Medical_Advisory_Fl_01  \
+0                 0               0               0                       0   
+1                 0               0               0                       0   
+2                 0               0               0                       0   
+3                 0               0               0                       0   
+4                 0               0               0                       0   
+
+   Amend_Supp_Fl_01  Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                 0                         0                             0   
+1                 0                         0                             0   
+2                 0                         0                             0   
+3                 0                         0                             0   
+4                 0                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+2                      1                 0                0   
+3                      1                 0                0   
+4                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+2                       0                            0                 0   
+3                       0                            0                 0   
+4                       0                            0                 1   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+2                      1                    1            0            0   
+3                      1                    1            0            0   
+4                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+2              1  
+3              1  
+4              1  
+root - INFO - 130
+root - WARNING - ***************************************************************************
+root - WARNING - ATTENTION: THERE IS NO SUBSET OF DATAFRAME WITHOUT ANY MISSING VALUE!!
+root - WARNING - ***************************************************************************
+root - INFO - 
+remove variables that have too many empty values optional threshold parameter in %; if not given default of 50 is used; in this case: 40%
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+
+  Crash_Time Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl Rpt_Hwy_Num  \
+0    8:40 AM                         N                  Y         NaN   
+1    5:00 PM                         N                  Y        2700   
+
+  Rpt_Block_Num Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0          5900    CASTLE CROSS            NaN             N            N   
+1          2700   INTERSTATE 37            NaN             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+
+  At_Intrsct_Fl Rpt_Sec_Block_Num Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0             Y              4700        CASTLE CROSS                NaN   
+1             N               500                FAIR                AVE   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+
+  Hwy_Nbr      Dfo      Street_Name  Street_Nbr  Control  Section  Milepoint  \
+0     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN        NaN   
+1      37  138.641           IH0037         NaN     73.0      8.0      8.199   
+
+  Ref_Mark_Nbr  Ref_Mark_Displ Street_Name_2 Txdot_Rptable_Fl Onsys_Fl  \
+0          NaN             NaN       UNKNOWN                Y        N   
+1          139          -0.156           NaN                Y        Y   
+
+  Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  Hp_Shldr_Right  \
+0        N          Y         THU            NaN             NaN   
+1        N          Y         WED           10.0            10.0   
+
+   Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  Roadbed_Width  Surf_Width  \
+0              NaN          NaN              NaN            NaN         NaN   
+1             60.0          8.0            360.0          136.0        96.0   
+
+   Shldr_Width_Left  Shldr_Width_Right  Median_Width  Adt_Curnt_Amt  \
+0               NaN                NaN           NaN            NaN   
+1              20.0               20.0          40.0       121569.0   
+
+   Adt_Curnt_Year  Adt_Adj_Curnt_Amt  Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  \
+0             NaN                NaN                 NaN                NaN   
+1          2014.0           121569.0                 2.3                1.4   
+
+   Trk_Aadt_Pct  Incap_Injry_Cnt  Nonincap_Injry_Cnt  Poss_Injry_Cnt  \
+0           NaN                0                   0               0   
+1           3.7                0                   0               0   
+
+   Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0              1               1              0          0   
+1              2               0              0          0   
+
+    CrashDateFormated  Crash_Fatal_Fl_01  Cmv_Involv_Fl_01  Schl_Bus_Fl_01  \
+0 2013-01-03 08:40:00                  0                 0               0   
+1 2013-01-02 17:00:00                  0                 0               0   
+
+   Rr_Relat_Fl_01  Medical_Advisory_Fl_01  Amend_Supp_Fl_01  \
+0               0                       0                 0   
+1               0                       0                 0   
+
+   Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                         0                             0   
+1                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+root - INFO - Remaining number of columns after thinning out: 92
+root - INFO - 
+Scatterplot
+root - INFO - 
+starting matrix
+root - INFO - matrix done
+root - INFO - None
+root - INFO - Scatterplot done
+root - INFO - Subset 'subSetGeoMotorVehicleCrashes.csv' exported.
+root - INFO - 
+Total count of rows in Dataframe: 5258
+root - INFO - 
+Total count of rows in Dataframe: 5258
+root - INFO - 
+
+
+***************************************************************************
+root - INFO - Finished
+root - INFO - 2021-09-16 18:44:15.693178
+root - INFO - Number of Records: 5258, Number of Columns: 171
+root - INFO - 
+Total count of rows in Dataframe: 5258
+numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+root - INFO - 
+thinned out dataframe by removing all columns with a certain substring. In this case: _ID
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+2  13056784              N             N           N           N   
+3  13057545              N             N           N           N   
+4  13060207              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+2                   N             N                     N   1/2/2013   
+3                   N             N                     N   1/1/2013   
+4                   N             N                     N   1/5/2013   
+
+  Crash_Time Local_Use Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl  \
+0    8:40 AM      3360                         N                  Y   
+1    5:00 PM      4240                         N                  Y   
+2    1:50 PM       NaN                         N                  Y   
+3   10:20 AM       NaN                         N                  Y   
+4    2:44 PM       NaN                         N                  Y   
+
+   Rpt_Latitude  Rpt_Longitude Rpt_Hwy_Num Rpt_Hwy_Sfx Rpt_Block_Num  \
+0           NaN            NaN         NaN         NaN          5900   
+1           NaN            NaN        2700         NaN          2700   
+2           NaN            NaN         NaN         NaN          3500   
+3           NaN            NaN         NaN         NaN           500   
+4           NaN            NaN          59         NaN           800   
+
+  Rpt_Street_Pfx Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0            NaN    CASTLE CROSS            NaN             N            N   
+1              N   INTERSTATE 37            NaN             N            N   
+2              N        TERMINAL             RD             N            N   
+3            NaN        PATRICIA             ST             N            N   
+4              N      TIMBERLAND             DR             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+2                 30                   N                        N   
+3                 30                   N                        N   
+4                 40                   N                        N   
+
+  Rpt_Street_Desc At_Intrsct_Fl Rpt_Sec_Hwy_Num Rpt_Sec_Hwy_Sfx  \
+0             NaN             Y             NaN             NaN   
+1   INTERSTATE 37             N             NaN             NaN   
+2        CONCRETE             N             NaN             NaN   
+3             NaN             N             NaN             NaN   
+4             NaN             Y             NaN             NaN   
+
+  Rpt_Sec_Block_Num Rpt_Sec_Street_Pfx Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0              4700                NaN        CASTLE CROSS                NaN   
+1               500                NaN                FAIR                AVE   
+2              3600                  S            TERMINAL                 RD   
+3               NaN                NaN            BROADWAY                NaN   
+4               500                  E              LAUREL                 ST   
+
+   Rpt_Ref_Mark_Offset_Amt Rpt_Ref_Mark_Dist_Uom Rpt_Ref_Mark_Dir  \
+0                      NaN                   NaN              NaN   
+1                      NaN                   NaN              NaN   
+2                      NaN                   NaN              NaN   
+3                      NaN                   NaN              NaN   
+4                      NaN                   NaN              NaN   
+
+  Rpt_Ref_Mark_Nbr Rpt_Sec_Street_Desc Rpt_CrossingNumber  \
+0              NaN                 NaN                NaN   
+1              NaN        500 FAIR AVE                NaN   
+2              NaN                 NaN                NaN   
+3              NaN                 NaN                NaN   
+4              NaN                 NaN                NaN   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+2                2:20 PM             DISPATCHED              2:23 PM   
+3               10:23 AM               DISPATCH             10:33 AM   
+4                2:44 PM             DISPATCHED              2:54 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+2    1/2/2013                  Y  TXHPD0000  29.987425 -95.337293     NaN   
+3    1/1/2013                  Y  TX1050100  29.862267 -97.945531     NaN   
+4    1/5/2013                  Y  TX0030400  31.347057 -94.719972      BU   
+
+  Hwy_Nbr Hwy_Sfx      Dfo      Street_Name  Street_Nbr  Control  Section  \
+0     NaN     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN   
+1      37     NaN  138.641           IH0037         NaN     73.0      8.0   
+2     NaN     NaN      NaN    N TERMINAL RD      3500.0      NaN      NaN   
+3     NaN     NaN      NaN      PATRICIA DR       513.0      NaN      NaN   
+4      59       G    1.750          BU0059G       898.0    176.0      2.0   
+
+   Milepoint Ref_Mark_Nbr  Ref_Mark_Displ Hwy_Sys_2 Hwy_Nbr_2 Hwy_Sfx_2  \
+0        NaN          NaN             NaN       NaN       NaN       NaN   
+1      8.199          139          -0.156       NaN       NaN       NaN   
+2        NaN          NaN             NaN       NaN       NaN       NaN   
+3        NaN          NaN             NaN       NaN       NaN       NaN   
+4      7.782          388          -0.221       NaN       NaN       NaN   
+
+  Street_Name_2  Street_Nbr_2  Control_2  Section_2  Milepoint_2  \
+0       UNKNOWN           NaN        NaN        NaN          NaN   
+1           NaN           NaN        NaN        NaN          NaN   
+2           NaN           NaN        NaN        NaN          NaN   
+3           NaN           NaN        NaN        NaN          NaN   
+4  E LAUREL AVE           NaN        NaN        NaN          NaN   
+
+  Txdot_Rptable_Fl Onsys_Fl Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  \
+0                Y        N        N          Y         THU            NaN   
+1                Y        Y        N          Y         WED           10.0   
+2                Y        N        N          Y         WED            NaN   
+3                Y        N        N          Y         TUE            NaN   
+4                Y        Y        N          Y         SAT            2.0   
+
+   Hp_Shldr_Right  Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  \
+0             NaN              NaN          NaN              NaN   
+1            10.0             60.0          8.0            360.0   
+2             NaN              NaN          NaN              NaN   
+3             NaN              NaN          NaN              NaN   
+4             2.0              0.0          4.0            120.0   
+
+   Roadbed_Width  Surf_Width  Shldr_Width_Left  Shldr_Width_Right  \
+0            NaN         NaN               NaN                NaN   
+1          136.0        96.0              20.0               20.0   
+2            NaN         NaN               NaN                NaN   
+3            NaN         NaN               NaN                NaN   
+4           65.0        60.0               2.0                2.0   
+
+   Median_Width  Adt_Curnt_Amt  Adt_Curnt_Year  Adt_Adj_Curnt_Amt  \
+0           NaN            NaN             NaN                NaN   
+1          40.0       121569.0          2014.0           121569.0   
+2           NaN            NaN             NaN                NaN   
+3           NaN            NaN             NaN                NaN   
+4           0.0        12828.0          2014.0            12828.0   
+
+   Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  Trk_Aadt_Pct  Curve_Lngth  Cd_Degr  \
+0                 NaN                NaN           NaN          NaN      NaN   
+1                 2.3                1.4           3.7          NaN      NaN   
+2                 NaN                NaN           NaN          NaN      NaN   
+3                 NaN                NaN           NaN          NaN      NaN   
+4                 2.9               18.5          21.4          NaN      NaN   
+
+   Dd_Degr  Feature_Crossed  Structure_Number  I_R_Min_Vert_Clear  \
+0      NaN              NaN               NaN                 NaN   
+1      NaN              NaN               NaN                 NaN   
+2      NaN              NaN               NaN                 NaN   
+3      NaN              NaN               NaN                 NaN   
+4      NaN              NaN               NaN                 NaN   
+
+   Approach_Width  Bridge_Loading_In_1000_Lbs  Roadway_Width  Deck_Width  \
+0             NaN                         NaN            NaN         NaN   
+1             NaN                         NaN            NaN         NaN   
+2             NaN                         NaN            NaN         NaN   
+3             NaN                         NaN            NaN         NaN   
+4             NaN                         NaN            NaN         NaN   
+
+  CrossingNumber RRCo  Standstop  Yield  Incap_Injry_Cnt  Nonincap_Injry_Cnt  \
+0            NaN  NaN        NaN    NaN                0                   0   
+1            NaN  NaN        NaN    NaN                0                   0   
+2            NaN  NaN        NaN    NaN                0                   0   
+3            NaN  NaN        NaN    NaN                0                   0   
+4            NaN  NaN        NaN    NaN                0                   0   
+
+   Poss_Injry_Cnt  Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0               0              1               1              0          0   
+1               0              2               0              0          0   
+2               0              2               0              0          0   
+3               0              1               0              0          0   
+4               0              4               0              0          0   
+
+   Investigator_Narrative   CrashDateFormated  Crash_Fatal_Fl_01  \
+0                     NaN 2013-01-03 08:40:00                  0   
+1                     NaN 2013-01-02 17:00:00                  0   
+2                     NaN 2013-01-02 13:50:00                  0   
+3                     NaN 2013-01-01 10:20:00                  0   
+4                     NaN 2013-01-05 14:44:00                  0   
+
+   Cmv_Involv_Fl_01  Schl_Bus_Fl_01  Rr_Relat_Fl_01  Medical_Advisory_Fl_01  \
+0                 0               0               0                       0   
+1                 0               0               0                       0   
+2                 0               0               0                       0   
+3                 0               0               0                       0   
+4                 0               0               0                       0   
+
+   Amend_Supp_Fl_01  Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                 0                         0                             0   
+1                 0                         0                             0   
+2                 0                         0                             0   
+3                 0                         0                             0   
+4                 0                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+2                      1                 0                0   
+3                      1                 0                0   
+4                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+2                       0                            0                 0   
+3                       0                            0                 0   
+4                       0                            0                 1   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+2                      1                    1            0            0   
+3                      1                    1            0            0   
+4                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+2              1  
+3              1  
+4              1  
+root - INFO - 130
+root - WARNING - ***************************************************************************
+root - WARNING - ATTENTION: THERE IS NO SUBSET OF DATAFRAME WITHOUT ANY MISSING VALUE!!
+root - WARNING - ***************************************************************************
+root - INFO - 
+remove variables that have too many empty values optional threshold parameter in %; if not given default of 50 is used; in this case: 40%
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+
+  Crash_Time Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl Rpt_Hwy_Num  \
+0    8:40 AM                         N                  Y         NaN   
+1    5:00 PM                         N                  Y        2700   
+
+  Rpt_Block_Num Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0          5900    CASTLE CROSS            NaN             N            N   
+1          2700   INTERSTATE 37            NaN             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+
+  At_Intrsct_Fl Rpt_Sec_Block_Num Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0             Y              4700        CASTLE CROSS                NaN   
+1             N               500                FAIR                AVE   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+
+  Hwy_Nbr      Dfo      Street_Name  Street_Nbr  Control  Section  Milepoint  \
+0     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN        NaN   
+1      37  138.641           IH0037         NaN     73.0      8.0      8.199   
+
+  Ref_Mark_Nbr  Ref_Mark_Displ Street_Name_2 Txdot_Rptable_Fl Onsys_Fl  \
+0          NaN             NaN       UNKNOWN                Y        N   
+1          139          -0.156           NaN                Y        Y   
+
+  Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  Hp_Shldr_Right  \
+0        N          Y         THU            NaN             NaN   
+1        N          Y         WED           10.0            10.0   
+
+   Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  Roadbed_Width  Surf_Width  \
+0              NaN          NaN              NaN            NaN         NaN   
+1             60.0          8.0            360.0          136.0        96.0   
+
+   Shldr_Width_Left  Shldr_Width_Right  Median_Width  Adt_Curnt_Amt  \
+0               NaN                NaN           NaN            NaN   
+1              20.0               20.0          40.0       121569.0   
+
+   Adt_Curnt_Year  Adt_Adj_Curnt_Amt  Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  \
+0             NaN                NaN                 NaN                NaN   
+1          2014.0           121569.0                 2.3                1.4   
+
+   Trk_Aadt_Pct  Incap_Injry_Cnt  Nonincap_Injry_Cnt  Poss_Injry_Cnt  \
+0           NaN                0                   0               0   
+1           3.7                0                   0               0   
+
+   Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0              1               1              0          0   
+1              2               0              0          0   
+
+    CrashDateFormated  Crash_Fatal_Fl_01  Cmv_Involv_Fl_01  Schl_Bus_Fl_01  \
+0 2013-01-03 08:40:00                  0                 0               0   
+1 2013-01-02 17:00:00                  0                 0               0   
+
+   Rr_Relat_Fl_01  Medical_Advisory_Fl_01  Amend_Supp_Fl_01  \
+0               0                       0                 0   
+1               0                       0                 0   
+
+   Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                         0                             0   
+1                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+root - INFO - Remaining number of columns after thinning out: 92
+root - INFO - 
+Scatterplot
+root - INFO - 
+starting matrix
+root - INFO - matrix done
+root - INFO - None
+root - INFO - Scatterplot done
+root - INFO - 2021-09-16 18:45:04.767995
+root - INFO - Number of Records: 5258, Number of Columns: 171
+root - INFO - 
+Total count of rows in Dataframe: 5258
+numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+root - INFO - 
+thinned out dataframe by removing all columns with a certain substring. In this case: _ID
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+2  13056784              N             N           N           N   
+3  13057545              N             N           N           N   
+4  13060207              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+2                   N             N                     N   1/2/2013   
+3                   N             N                     N   1/1/2013   
+4                   N             N                     N   1/5/2013   
+
+  Crash_Time Local_Use Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl  \
+0    8:40 AM      3360                         N                  Y   
+1    5:00 PM      4240                         N                  Y   
+2    1:50 PM       NaN                         N                  Y   
+3   10:20 AM       NaN                         N                  Y   
+4    2:44 PM       NaN                         N                  Y   
+
+   Rpt_Latitude  Rpt_Longitude Rpt_Hwy_Num Rpt_Hwy_Sfx Rpt_Block_Num  \
+0           NaN            NaN         NaN         NaN          5900   
+1           NaN            NaN        2700         NaN          2700   
+2           NaN            NaN         NaN         NaN          3500   
+3           NaN            NaN         NaN         NaN           500   
+4           NaN            NaN          59         NaN           800   
+
+  Rpt_Street_Pfx Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0            NaN    CASTLE CROSS            NaN             N            N   
+1              N   INTERSTATE 37            NaN             N            N   
+2              N        TERMINAL             RD             N            N   
+3            NaN        PATRICIA             ST             N            N   
+4              N      TIMBERLAND             DR             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+2                 30                   N                        N   
+3                 30                   N                        N   
+4                 40                   N                        N   
+
+  Rpt_Street_Desc At_Intrsct_Fl Rpt_Sec_Hwy_Num Rpt_Sec_Hwy_Sfx  \
+0             NaN             Y             NaN             NaN   
+1   INTERSTATE 37             N             NaN             NaN   
+2        CONCRETE             N             NaN             NaN   
+3             NaN             N             NaN             NaN   
+4             NaN             Y             NaN             NaN   
+
+  Rpt_Sec_Block_Num Rpt_Sec_Street_Pfx Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0              4700                NaN        CASTLE CROSS                NaN   
+1               500                NaN                FAIR                AVE   
+2              3600                  S            TERMINAL                 RD   
+3               NaN                NaN            BROADWAY                NaN   
+4               500                  E              LAUREL                 ST   
+
+   Rpt_Ref_Mark_Offset_Amt Rpt_Ref_Mark_Dist_Uom Rpt_Ref_Mark_Dir  \
+0                      NaN                   NaN              NaN   
+1                      NaN                   NaN              NaN   
+2                      NaN                   NaN              NaN   
+3                      NaN                   NaN              NaN   
+4                      NaN                   NaN              NaN   
+
+  Rpt_Ref_Mark_Nbr Rpt_Sec_Street_Desc Rpt_CrossingNumber  \
+0              NaN                 NaN                NaN   
+1              NaN        500 FAIR AVE                NaN   
+2              NaN                 NaN                NaN   
+3              NaN                 NaN                NaN   
+4              NaN                 NaN                NaN   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+2                2:20 PM             DISPATCHED              2:23 PM   
+3               10:23 AM               DISPATCH             10:33 AM   
+4                2:44 PM             DISPATCHED              2:54 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+2    1/2/2013                  Y  TXHPD0000  29.987425 -95.337293     NaN   
+3    1/1/2013                  Y  TX1050100  29.862267 -97.945531     NaN   
+4    1/5/2013                  Y  TX0030400  31.347057 -94.719972      BU   
+
+  Hwy_Nbr Hwy_Sfx      Dfo      Street_Name  Street_Nbr  Control  Section  \
+0     NaN     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN   
+1      37     NaN  138.641           IH0037         NaN     73.0      8.0   
+2     NaN     NaN      NaN    N TERMINAL RD      3500.0      NaN      NaN   
+3     NaN     NaN      NaN      PATRICIA DR       513.0      NaN      NaN   
+4      59       G    1.750          BU0059G       898.0    176.0      2.0   
+
+   Milepoint Ref_Mark_Nbr  Ref_Mark_Displ Hwy_Sys_2 Hwy_Nbr_2 Hwy_Sfx_2  \
+0        NaN          NaN             NaN       NaN       NaN       NaN   
+1      8.199          139          -0.156       NaN       NaN       NaN   
+2        NaN          NaN             NaN       NaN       NaN       NaN   
+3        NaN          NaN             NaN       NaN       NaN       NaN   
+4      7.782          388          -0.221       NaN       NaN       NaN   
+
+  Street_Name_2  Street_Nbr_2  Control_2  Section_2  Milepoint_2  \
+0       UNKNOWN           NaN        NaN        NaN          NaN   
+1           NaN           NaN        NaN        NaN          NaN   
+2           NaN           NaN        NaN        NaN          NaN   
+3           NaN           NaN        NaN        NaN          NaN   
+4  E LAUREL AVE           NaN        NaN        NaN          NaN   
+
+  Txdot_Rptable_Fl Onsys_Fl Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  \
+0                Y        N        N          Y         THU            NaN   
+1                Y        Y        N          Y         WED           10.0   
+2                Y        N        N          Y         WED            NaN   
+3                Y        N        N          Y         TUE            NaN   
+4                Y        Y        N          Y         SAT            2.0   
+
+   Hp_Shldr_Right  Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  \
+0             NaN              NaN          NaN              NaN   
+1            10.0             60.0          8.0            360.0   
+2             NaN              NaN          NaN              NaN   
+3             NaN              NaN          NaN              NaN   
+4             2.0              0.0          4.0            120.0   
+
+   Roadbed_Width  Surf_Width  Shldr_Width_Left  Shldr_Width_Right  \
+0            NaN         NaN               NaN                NaN   
+1          136.0        96.0              20.0               20.0   
+2            NaN         NaN               NaN                NaN   
+3            NaN         NaN               NaN                NaN   
+4           65.0        60.0               2.0                2.0   
+
+   Median_Width  Adt_Curnt_Amt  Adt_Curnt_Year  Adt_Adj_Curnt_Amt  \
+0           NaN            NaN             NaN                NaN   
+1          40.0       121569.0          2014.0           121569.0   
+2           NaN            NaN             NaN                NaN   
+3           NaN            NaN             NaN                NaN   
+4           0.0        12828.0          2014.0            12828.0   
+
+   Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  Trk_Aadt_Pct  Curve_Lngth  Cd_Degr  \
+0                 NaN                NaN           NaN          NaN      NaN   
+1                 2.3                1.4           3.7          NaN      NaN   
+2                 NaN                NaN           NaN          NaN      NaN   
+3                 NaN                NaN           NaN          NaN      NaN   
+4                 2.9               18.5          21.4          NaN      NaN   
+
+   Dd_Degr  Feature_Crossed  Structure_Number  I_R_Min_Vert_Clear  \
+0      NaN              NaN               NaN                 NaN   
+1      NaN              NaN               NaN                 NaN   
+2      NaN              NaN               NaN                 NaN   
+3      NaN              NaN               NaN                 NaN   
+4      NaN              NaN               NaN                 NaN   
+
+   Approach_Width  Bridge_Loading_In_1000_Lbs  Roadway_Width  Deck_Width  \
+0             NaN                         NaN            NaN         NaN   
+1             NaN                         NaN            NaN         NaN   
+2             NaN                         NaN            NaN         NaN   
+3             NaN                         NaN            NaN         NaN   
+4             NaN                         NaN            NaN         NaN   
+
+  CrossingNumber RRCo  Standstop  Yield  Incap_Injry_Cnt  Nonincap_Injry_Cnt  \
+0            NaN  NaN        NaN    NaN                0                   0   
+1            NaN  NaN        NaN    NaN                0                   0   
+2            NaN  NaN        NaN    NaN                0                   0   
+3            NaN  NaN        NaN    NaN                0                   0   
+4            NaN  NaN        NaN    NaN                0                   0   
+
+   Poss_Injry_Cnt  Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0               0              1               1              0          0   
+1               0              2               0              0          0   
+2               0              2               0              0          0   
+3               0              1               0              0          0   
+4               0              4               0              0          0   
+
+   Investigator_Narrative   CrashDateFormated  Crash_Fatal_Fl_01  \
+0                     NaN 2013-01-03 08:40:00                  0   
+1                     NaN 2013-01-02 17:00:00                  0   
+2                     NaN 2013-01-02 13:50:00                  0   
+3                     NaN 2013-01-01 10:20:00                  0   
+4                     NaN 2013-01-05 14:44:00                  0   
+
+   Cmv_Involv_Fl_01  Schl_Bus_Fl_01  Rr_Relat_Fl_01  Medical_Advisory_Fl_01  \
+0                 0               0               0                       0   
+1                 0               0               0                       0   
+2                 0               0               0                       0   
+3                 0               0               0                       0   
+4                 0               0               0                       0   
+
+   Amend_Supp_Fl_01  Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                 0                         0                             0   
+1                 0                         0                             0   
+2                 0                         0                             0   
+3                 0                         0                             0   
+4                 0                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+2                      1                 0                0   
+3                      1                 0                0   
+4                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+2                       0                            0                 0   
+3                       0                            0                 0   
+4                       0                            0                 1   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+2                      1                    1            0            0   
+3                      1                    1            0            0   
+4                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+2              1  
+3              1  
+4              1  
+root - INFO - 130
+root - WARNING - ***************************************************************************
+root - WARNING - ATTENTION: THERE IS NO SUBSET OF DATAFRAME WITHOUT ANY MISSING VALUE!!
+root - WARNING - ***************************************************************************
+root - INFO - 
+remove variables that have too many empty values optional threshold parameter in %; if not given default of 50 is used; in this case: 40%
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+
+  Crash_Time Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl Rpt_Hwy_Num  \
+0    8:40 AM                         N                  Y         NaN   
+1    5:00 PM                         N                  Y        2700   
+
+  Rpt_Block_Num Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0          5900    CASTLE CROSS            NaN             N            N   
+1          2700   INTERSTATE 37            NaN             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+
+  At_Intrsct_Fl Rpt_Sec_Block_Num Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0             Y              4700        CASTLE CROSS                NaN   
+1             N               500                FAIR                AVE   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+
+  Hwy_Nbr      Dfo      Street_Name  Street_Nbr  Control  Section  Milepoint  \
+0     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN        NaN   
+1      37  138.641           IH0037         NaN     73.0      8.0      8.199   
+
+  Ref_Mark_Nbr  Ref_Mark_Displ Street_Name_2 Txdot_Rptable_Fl Onsys_Fl  \
+0          NaN             NaN       UNKNOWN                Y        N   
+1          139          -0.156           NaN                Y        Y   
+
+  Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  Hp_Shldr_Right  \
+0        N          Y         THU            NaN             NaN   
+1        N          Y         WED           10.0            10.0   
+
+   Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  Roadbed_Width  Surf_Width  \
+0              NaN          NaN              NaN            NaN         NaN   
+1             60.0          8.0            360.0          136.0        96.0   
+
+   Shldr_Width_Left  Shldr_Width_Right  Median_Width  Adt_Curnt_Amt  \
+0               NaN                NaN           NaN            NaN   
+1              20.0               20.0          40.0       121569.0   
+
+   Adt_Curnt_Year  Adt_Adj_Curnt_Amt  Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  \
+0             NaN                NaN                 NaN                NaN   
+1          2014.0           121569.0                 2.3                1.4   
+
+   Trk_Aadt_Pct  Incap_Injry_Cnt  Nonincap_Injry_Cnt  Poss_Injry_Cnt  \
+0           NaN                0                   0               0   
+1           3.7                0                   0               0   
+
+   Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0              1               1              0          0   
+1              2               0              0          0   
+
+    CrashDateFormated  Crash_Fatal_Fl_01  Cmv_Involv_Fl_01  Schl_Bus_Fl_01  \
+0 2013-01-03 08:40:00                  0                 0               0   
+1 2013-01-02 17:00:00                  0                 0               0   
+
+   Rr_Relat_Fl_01  Medical_Advisory_Fl_01  Amend_Supp_Fl_01  \
+0               0                       0                 0   
+1               0                       0                 0   
+
+   Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                         0                             0   
+1                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+root - INFO - Remaining number of columns after thinning out: 92
+root - INFO - 
+Scatterplot
+root - INFO - 
+starting matrix
+root - INFO - matrix done
+root - INFO - None
+root - INFO - Scatterplot done
+root - INFO - Subset 'subSetGeoMotorVehicleCrashes.csv' exported.
+root - INFO - 
+Total count of rows in Dataframe: 5258
+root - INFO - 
+Total count of rows in Dataframe: 5258
+root - INFO - 
+
+
+***************************************************************************
+root - INFO - Finished
+root - INFO - 2021-09-17 00:20:50.729789
+root - INFO - Number of Records: 5258, Number of Columns: 171
+root - INFO - 
+Total count of rows in Dataframe: 5258
+numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+root - INFO - 
+thinned out dataframe by removing all columns with a certain substring. In this case: _ID
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+2  13056784              N             N           N           N   
+3  13057545              N             N           N           N   
+4  13060207              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+2                   N             N                     N   1/2/2013   
+3                   N             N                     N   1/1/2013   
+4                   N             N                     N   1/5/2013   
+
+  Crash_Time Local_Use Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl  \
+0    8:40 AM      3360                         N                  Y   
+1    5:00 PM      4240                         N                  Y   
+2    1:50 PM       NaN                         N                  Y   
+3   10:20 AM       NaN                         N                  Y   
+4    2:44 PM       NaN                         N                  Y   
+
+   Rpt_Latitude  Rpt_Longitude Rpt_Hwy_Num Rpt_Hwy_Sfx Rpt_Block_Num  \
+0           NaN            NaN         NaN         NaN          5900   
+1           NaN            NaN        2700         NaN          2700   
+2           NaN            NaN         NaN         NaN          3500   
+3           NaN            NaN         NaN         NaN           500   
+4           NaN            NaN          59         NaN           800   
+
+  Rpt_Street_Pfx Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0            NaN    CASTLE CROSS            NaN             N            N   
+1              N   INTERSTATE 37            NaN             N            N   
+2              N        TERMINAL             RD             N            N   
+3            NaN        PATRICIA             ST             N            N   
+4              N      TIMBERLAND             DR             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+2                 30                   N                        N   
+3                 30                   N                        N   
+4                 40                   N                        N   
+
+  Rpt_Street_Desc At_Intrsct_Fl Rpt_Sec_Hwy_Num Rpt_Sec_Hwy_Sfx  \
+0             NaN             Y             NaN             NaN   
+1   INTERSTATE 37             N             NaN             NaN   
+2        CONCRETE             N             NaN             NaN   
+3             NaN             N             NaN             NaN   
+4             NaN             Y             NaN             NaN   
+
+  Rpt_Sec_Block_Num Rpt_Sec_Street_Pfx Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0              4700                NaN        CASTLE CROSS                NaN   
+1               500                NaN                FAIR                AVE   
+2              3600                  S            TERMINAL                 RD   
+3               NaN                NaN            BROADWAY                NaN   
+4               500                  E              LAUREL                 ST   
+
+   Rpt_Ref_Mark_Offset_Amt Rpt_Ref_Mark_Dist_Uom Rpt_Ref_Mark_Dir  \
+0                      NaN                   NaN              NaN   
+1                      NaN                   NaN              NaN   
+2                      NaN                   NaN              NaN   
+3                      NaN                   NaN              NaN   
+4                      NaN                   NaN              NaN   
+
+  Rpt_Ref_Mark_Nbr Rpt_Sec_Street_Desc Rpt_CrossingNumber  \
+0              NaN                 NaN                NaN   
+1              NaN        500 FAIR AVE                NaN   
+2              NaN                 NaN                NaN   
+3              NaN                 NaN                NaN   
+4              NaN                 NaN                NaN   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+2                2:20 PM             DISPATCHED              2:23 PM   
+3               10:23 AM               DISPATCH             10:33 AM   
+4                2:44 PM             DISPATCHED              2:54 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+2    1/2/2013                  Y  TXHPD0000  29.987425 -95.337293     NaN   
+3    1/1/2013                  Y  TX1050100  29.862267 -97.945531     NaN   
+4    1/5/2013                  Y  TX0030400  31.347057 -94.719972      BU   
+
+  Hwy_Nbr Hwy_Sfx      Dfo      Street_Name  Street_Nbr  Control  Section  \
+0     NaN     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN   
+1      37     NaN  138.641           IH0037         NaN     73.0      8.0   
+2     NaN     NaN      NaN    N TERMINAL RD      3500.0      NaN      NaN   
+3     NaN     NaN      NaN      PATRICIA DR       513.0      NaN      NaN   
+4      59       G    1.750          BU0059G       898.0    176.0      2.0   
+
+   Milepoint Ref_Mark_Nbr  Ref_Mark_Displ Hwy_Sys_2 Hwy_Nbr_2 Hwy_Sfx_2  \
+0        NaN          NaN             NaN       NaN       NaN       NaN   
+1      8.199          139          -0.156       NaN       NaN       NaN   
+2        NaN          NaN             NaN       NaN       NaN       NaN   
+3        NaN          NaN             NaN       NaN       NaN       NaN   
+4      7.782          388          -0.221       NaN       NaN       NaN   
+
+  Street_Name_2  Street_Nbr_2  Control_2  Section_2  Milepoint_2  \
+0       UNKNOWN           NaN        NaN        NaN          NaN   
+1           NaN           NaN        NaN        NaN          NaN   
+2           NaN           NaN        NaN        NaN          NaN   
+3           NaN           NaN        NaN        NaN          NaN   
+4  E LAUREL AVE           NaN        NaN        NaN          NaN   
+
+  Txdot_Rptable_Fl Onsys_Fl Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  \
+0                Y        N        N          Y         THU            NaN   
+1                Y        Y        N          Y         WED           10.0   
+2                Y        N        N          Y         WED            NaN   
+3                Y        N        N          Y         TUE            NaN   
+4                Y        Y        N          Y         SAT            2.0   
+
+   Hp_Shldr_Right  Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  \
+0             NaN              NaN          NaN              NaN   
+1            10.0             60.0          8.0            360.0   
+2             NaN              NaN          NaN              NaN   
+3             NaN              NaN          NaN              NaN   
+4             2.0              0.0          4.0            120.0   
+
+   Roadbed_Width  Surf_Width  Shldr_Width_Left  Shldr_Width_Right  \
+0            NaN         NaN               NaN                NaN   
+1          136.0        96.0              20.0               20.0   
+2            NaN         NaN               NaN                NaN   
+3            NaN         NaN               NaN                NaN   
+4           65.0        60.0               2.0                2.0   
+
+   Median_Width  Adt_Curnt_Amt  Adt_Curnt_Year  Adt_Adj_Curnt_Amt  \
+0           NaN            NaN             NaN                NaN   
+1          40.0       121569.0          2014.0           121569.0   
+2           NaN            NaN             NaN                NaN   
+3           NaN            NaN             NaN                NaN   
+4           0.0        12828.0          2014.0            12828.0   
+
+   Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  Trk_Aadt_Pct  Curve_Lngth  Cd_Degr  \
+0                 NaN                NaN           NaN          NaN      NaN   
+1                 2.3                1.4           3.7          NaN      NaN   
+2                 NaN                NaN           NaN          NaN      NaN   
+3                 NaN                NaN           NaN          NaN      NaN   
+4                 2.9               18.5          21.4          NaN      NaN   
+
+   Dd_Degr  Feature_Crossed  Structure_Number  I_R_Min_Vert_Clear  \
+0      NaN              NaN               NaN                 NaN   
+1      NaN              NaN               NaN                 NaN   
+2      NaN              NaN               NaN                 NaN   
+3      NaN              NaN               NaN                 NaN   
+4      NaN              NaN               NaN                 NaN   
+
+   Approach_Width  Bridge_Loading_In_1000_Lbs  Roadway_Width  Deck_Width  \
+0             NaN                         NaN            NaN         NaN   
+1             NaN                         NaN            NaN         NaN   
+2             NaN                         NaN            NaN         NaN   
+3             NaN                         NaN            NaN         NaN   
+4             NaN                         NaN            NaN         NaN   
+
+  CrossingNumber RRCo  Standstop  Yield  Incap_Injry_Cnt  Nonincap_Injry_Cnt  \
+0            NaN  NaN        NaN    NaN                0                   0   
+1            NaN  NaN        NaN    NaN                0                   0   
+2            NaN  NaN        NaN    NaN                0                   0   
+3            NaN  NaN        NaN    NaN                0                   0   
+4            NaN  NaN        NaN    NaN                0                   0   
+
+   Poss_Injry_Cnt  Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0               0              1               1              0          0   
+1               0              2               0              0          0   
+2               0              2               0              0          0   
+3               0              1               0              0          0   
+4               0              4               0              0          0   
+
+   Investigator_Narrative   CrashDateFormated  Crash_Fatal_Fl_01  \
+0                     NaN 2013-01-03 08:40:00                  0   
+1                     NaN 2013-01-02 17:00:00                  0   
+2                     NaN 2013-01-02 13:50:00                  0   
+3                     NaN 2013-01-01 10:20:00                  0   
+4                     NaN 2013-01-05 14:44:00                  0   
+
+   Cmv_Involv_Fl_01  Schl_Bus_Fl_01  Rr_Relat_Fl_01  Medical_Advisory_Fl_01  \
+0                 0               0               0                       0   
+1                 0               0               0                       0   
+2                 0               0               0                       0   
+3                 0               0               0                       0   
+4                 0               0               0                       0   
+
+   Amend_Supp_Fl_01  Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                 0                         0                             0   
+1                 0                         0                             0   
+2                 0                         0                             0   
+3                 0                         0                             0   
+4                 0                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+2                      1                 0                0   
+3                      1                 0                0   
+4                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+2                       0                            0                 0   
+3                       0                            0                 0   
+4                       0                            0                 1   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+2                      1                    1            0            0   
+3                      1                    1            0            0   
+4                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+2              1  
+3              1  
+4              1  
+root - INFO - 130
+root - WARNING - ***************************************************************************
+root - WARNING - ATTENTION: THERE IS NO SUBSET OF DATAFRAME WITHOUT ANY MISSING VALUE!!
+root - WARNING - ***************************************************************************
+root - INFO - 
+remove variables that have too many empty values optional threshold parameter in %; if not given default of 50 is used; in this case: 40%
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+
+  Crash_Time Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl Rpt_Hwy_Num  \
+0    8:40 AM                         N                  Y         NaN   
+1    5:00 PM                         N                  Y        2700   
+
+  Rpt_Block_Num Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0          5900    CASTLE CROSS            NaN             N            N   
+1          2700   INTERSTATE 37            NaN             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+
+  At_Intrsct_Fl Rpt_Sec_Block_Num Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0             Y              4700        CASTLE CROSS                NaN   
+1             N               500                FAIR                AVE   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+
+  Hwy_Nbr      Dfo      Street_Name  Street_Nbr  Control  Section  Milepoint  \
+0     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN        NaN   
+1      37  138.641           IH0037         NaN     73.0      8.0      8.199   
+
+  Ref_Mark_Nbr  Ref_Mark_Displ Street_Name_2 Txdot_Rptable_Fl Onsys_Fl  \
+0          NaN             NaN       UNKNOWN                Y        N   
+1          139          -0.156           NaN                Y        Y   
+
+  Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  Hp_Shldr_Right  \
+0        N          Y         THU            NaN             NaN   
+1        N          Y         WED           10.0            10.0   
+
+   Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  Roadbed_Width  Surf_Width  \
+0              NaN          NaN              NaN            NaN         NaN   
+1             60.0          8.0            360.0          136.0        96.0   
+
+   Shldr_Width_Left  Shldr_Width_Right  Median_Width  Adt_Curnt_Amt  \
+0               NaN                NaN           NaN            NaN   
+1              20.0               20.0          40.0       121569.0   
+
+   Adt_Curnt_Year  Adt_Adj_Curnt_Amt  Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  \
+0             NaN                NaN                 NaN                NaN   
+1          2014.0           121569.0                 2.3                1.4   
+
+   Trk_Aadt_Pct  Incap_Injry_Cnt  Nonincap_Injry_Cnt  Poss_Injry_Cnt  \
+0           NaN                0                   0               0   
+1           3.7                0                   0               0   
+
+   Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0              1               1              0          0   
+1              2               0              0          0   
+
+    CrashDateFormated  Crash_Fatal_Fl_01  Cmv_Involv_Fl_01  Schl_Bus_Fl_01  \
+0 2013-01-03 08:40:00                  0                 0               0   
+1 2013-01-02 17:00:00                  0                 0               0   
+
+   Rr_Relat_Fl_01  Medical_Advisory_Fl_01  Amend_Supp_Fl_01  \
+0               0                       0                 0   
+1               0                       0                 0   
+
+   Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                         0                             0   
+1                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+root - INFO - Remaining number of columns after thinning out: 92
+root - INFO - Subset 'subSetGeoMotorVehicleCrashes.csv' exported.
+root - INFO - 
+Total count of rows in Dataframe: 5258
+root - INFO - 
+Scatterplot
+root - INFO - 
+starting matrix
+root - INFO - matrix done
+root - INFO - None
+root - INFO - Scatterplot done
+root - INFO - 
+
+
+***************************************************************************
+root - INFO - Finished
+root - INFO - 2021-09-17 18:40:38.159451
+root - INFO - Number of Records: 5258, Number of Columns: 171
+root - INFO - 
+Total count of rows in Dataframe: 5258
+numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+root - INFO - 
+thinned out dataframe by removing all columns with a certain substring. In this case: _ID
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+2  13056784              N             N           N           N   
+3  13057545              N             N           N           N   
+4  13060207              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+2                   N             N                     N   1/2/2013   
+3                   N             N                     N   1/1/2013   
+4                   N             N                     N   1/5/2013   
+
+  Crash_Time Local_Use Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl  \
+0    8:40 AM      3360                         N                  Y   
+1    5:00 PM      4240                         N                  Y   
+2    1:50 PM       NaN                         N                  Y   
+3   10:20 AM       NaN                         N                  Y   
+4    2:44 PM       NaN                         N                  Y   
+
+   Rpt_Latitude  Rpt_Longitude Rpt_Hwy_Num Rpt_Hwy_Sfx Rpt_Block_Num  \
+0           NaN            NaN         NaN         NaN          5900   
+1           NaN            NaN        2700         NaN          2700   
+2           NaN            NaN         NaN         NaN          3500   
+3           NaN            NaN         NaN         NaN           500   
+4           NaN            NaN          59         NaN           800   
+
+  Rpt_Street_Pfx Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0            NaN    CASTLE CROSS            NaN             N            N   
+1              N   INTERSTATE 37            NaN             N            N   
+2              N        TERMINAL             RD             N            N   
+3            NaN        PATRICIA             ST             N            N   
+4              N      TIMBERLAND             DR             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+2                 30                   N                        N   
+3                 30                   N                        N   
+4                 40                   N                        N   
+
+  Rpt_Street_Desc At_Intrsct_Fl Rpt_Sec_Hwy_Num Rpt_Sec_Hwy_Sfx  \
+0             NaN             Y             NaN             NaN   
+1   INTERSTATE 37             N             NaN             NaN   
+2        CONCRETE             N             NaN             NaN   
+3             NaN             N             NaN             NaN   
+4             NaN             Y             NaN             NaN   
+
+  Rpt_Sec_Block_Num Rpt_Sec_Street_Pfx Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0              4700                NaN        CASTLE CROSS                NaN   
+1               500                NaN                FAIR                AVE   
+2              3600                  S            TERMINAL                 RD   
+3               NaN                NaN            BROADWAY                NaN   
+4               500                  E              LAUREL                 ST   
+
+   Rpt_Ref_Mark_Offset_Amt Rpt_Ref_Mark_Dist_Uom Rpt_Ref_Mark_Dir  \
+0                      NaN                   NaN              NaN   
+1                      NaN                   NaN              NaN   
+2                      NaN                   NaN              NaN   
+3                      NaN                   NaN              NaN   
+4                      NaN                   NaN              NaN   
+
+  Rpt_Ref_Mark_Nbr Rpt_Sec_Street_Desc Rpt_CrossingNumber  \
+0              NaN                 NaN                NaN   
+1              NaN        500 FAIR AVE                NaN   
+2              NaN                 NaN                NaN   
+3              NaN                 NaN                NaN   
+4              NaN                 NaN                NaN   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+2                2:20 PM             DISPATCHED              2:23 PM   
+3               10:23 AM               DISPATCH             10:33 AM   
+4                2:44 PM             DISPATCHED              2:54 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+2    1/2/2013                  Y  TXHPD0000  29.987425 -95.337293     NaN   
+3    1/1/2013                  Y  TX1050100  29.862267 -97.945531     NaN   
+4    1/5/2013                  Y  TX0030400  31.347057 -94.719972      BU   
+
+  Hwy_Nbr Hwy_Sfx      Dfo      Street_Name  Street_Nbr  Control  Section  \
+0     NaN     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN   
+1      37     NaN  138.641           IH0037         NaN     73.0      8.0   
+2     NaN     NaN      NaN    N TERMINAL RD      3500.0      NaN      NaN   
+3     NaN     NaN      NaN      PATRICIA DR       513.0      NaN      NaN   
+4      59       G    1.750          BU0059G       898.0    176.0      2.0   
+
+   Milepoint Ref_Mark_Nbr  Ref_Mark_Displ Hwy_Sys_2 Hwy_Nbr_2 Hwy_Sfx_2  \
+0        NaN          NaN             NaN       NaN       NaN       NaN   
+1      8.199          139          -0.156       NaN       NaN       NaN   
+2        NaN          NaN             NaN       NaN       NaN       NaN   
+3        NaN          NaN             NaN       NaN       NaN       NaN   
+4      7.782          388          -0.221       NaN       NaN       NaN   
+
+  Street_Name_2  Street_Nbr_2  Control_2  Section_2  Milepoint_2  \
+0       UNKNOWN           NaN        NaN        NaN          NaN   
+1           NaN           NaN        NaN        NaN          NaN   
+2           NaN           NaN        NaN        NaN          NaN   
+3           NaN           NaN        NaN        NaN          NaN   
+4  E LAUREL AVE           NaN        NaN        NaN          NaN   
+
+  Txdot_Rptable_Fl Onsys_Fl Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  \
+0                Y        N        N          Y         THU            NaN   
+1                Y        Y        N          Y         WED           10.0   
+2                Y        N        N          Y         WED            NaN   
+3                Y        N        N          Y         TUE            NaN   
+4                Y        Y        N          Y         SAT            2.0   
+
+   Hp_Shldr_Right  Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  \
+0             NaN              NaN          NaN              NaN   
+1            10.0             60.0          8.0            360.0   
+2             NaN              NaN          NaN              NaN   
+3             NaN              NaN          NaN              NaN   
+4             2.0              0.0          4.0            120.0   
+
+   Roadbed_Width  Surf_Width  Shldr_Width_Left  Shldr_Width_Right  \
+0            NaN         NaN               NaN                NaN   
+1          136.0        96.0              20.0               20.0   
+2            NaN         NaN               NaN                NaN   
+3            NaN         NaN               NaN                NaN   
+4           65.0        60.0               2.0                2.0   
+
+   Median_Width  Adt_Curnt_Amt  Adt_Curnt_Year  Adt_Adj_Curnt_Amt  \
+0           NaN            NaN             NaN                NaN   
+1          40.0       121569.0          2014.0           121569.0   
+2           NaN            NaN             NaN                NaN   
+3           NaN            NaN             NaN                NaN   
+4           0.0        12828.0          2014.0            12828.0   
+
+   Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  Trk_Aadt_Pct  Curve_Lngth  Cd_Degr  \
+0                 NaN                NaN           NaN          NaN      NaN   
+1                 2.3                1.4           3.7          NaN      NaN   
+2                 NaN                NaN           NaN          NaN      NaN   
+3                 NaN                NaN           NaN          NaN      NaN   
+4                 2.9               18.5          21.4          NaN      NaN   
+
+   Dd_Degr  Feature_Crossed  Structure_Number  I_R_Min_Vert_Clear  \
+0      NaN              NaN               NaN                 NaN   
+1      NaN              NaN               NaN                 NaN   
+2      NaN              NaN               NaN                 NaN   
+3      NaN              NaN               NaN                 NaN   
+4      NaN              NaN               NaN                 NaN   
+
+   Approach_Width  Bridge_Loading_In_1000_Lbs  Roadway_Width  Deck_Width  \
+0             NaN                         NaN            NaN         NaN   
+1             NaN                         NaN            NaN         NaN   
+2             NaN                         NaN            NaN         NaN   
+3             NaN                         NaN            NaN         NaN   
+4             NaN                         NaN            NaN         NaN   
+
+  CrossingNumber RRCo  Standstop  Yield  Incap_Injry_Cnt  Nonincap_Injry_Cnt  \
+0            NaN  NaN        NaN    NaN                0                   0   
+1            NaN  NaN        NaN    NaN                0                   0   
+2            NaN  NaN        NaN    NaN                0                   0   
+3            NaN  NaN        NaN    NaN                0                   0   
+4            NaN  NaN        NaN    NaN                0                   0   
+
+   Poss_Injry_Cnt  Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0               0              1               1              0          0   
+1               0              2               0              0          0   
+2               0              2               0              0          0   
+3               0              1               0              0          0   
+4               0              4               0              0          0   
+
+   Investigator_Narrative   CrashDateFormated  Crash_Fatal_Fl_01  \
+0                     NaN 2013-01-03 08:40:00                  0   
+1                     NaN 2013-01-02 17:00:00                  0   
+2                     NaN 2013-01-02 13:50:00                  0   
+3                     NaN 2013-01-01 10:20:00                  0   
+4                     NaN 2013-01-05 14:44:00                  0   
+
+   Cmv_Involv_Fl_01  Schl_Bus_Fl_01  Rr_Relat_Fl_01  Medical_Advisory_Fl_01  \
+0                 0               0               0                       0   
+1                 0               0               0                       0   
+2                 0               0               0                       0   
+3                 0               0               0                       0   
+4                 0               0               0                       0   
+
+   Amend_Supp_Fl_01  Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                 0                         0                             0   
+1                 0                         0                             0   
+2                 0                         0                             0   
+3                 0                         0                             0   
+4                 0                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+2                      1                 0                0   
+3                      1                 0                0   
+4                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+2                       0                            0                 0   
+3                       0                            0                 0   
+4                       0                            0                 1   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+2                      1                    1            0            0   
+3                      1                    1            0            0   
+4                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+2              1  
+3              1  
+4              1  
+root - INFO - 130
+root - WARNING - ***************************************************************************
+root - WARNING - ATTENTION: THERE IS NO SUBSET OF DATAFRAME WITHOUT ANY MISSING VALUE!!
+root - WARNING - ***************************************************************************
+root - INFO - 
+remove variables that have too many empty values optional threshold parameter in %; if not given default of 50 is used; in this case: 40%
+root - INFO -    Crash_ID Crash_Fatal_Fl Cmv_Involv_Fl Schl_Bus_Fl Rr_Relat_Fl  \
+0  13056580              N             N           N           N   
+1  13056760              N             N           N           N   
+
+  Medical_Advisory_Fl Amend_Supp_Fl Active_School_Zone_Fl Crash_Date  \
+0                   N             N                     N   1/3/2013   
+1                   N             N                     N   1/2/2013   
+
+  Crash_Time Rpt_Outside_City_Limit_Fl Thousand_Damage_Fl Rpt_Hwy_Num  \
+0    8:40 AM                         N                  Y         NaN   
+1    5:00 PM                         N                  Y        2700   
+
+  Rpt_Block_Num Rpt_Street_Name Rpt_Street_Sfx Private_Dr_Fl Toll_Road_Fl  \
+0          5900    CASTLE CROSS            NaN             N            N   
+1          2700   INTERSTATE 37            NaN             N            N   
+
+   Crash_Speed_Limit Road_Constr_Zone_Fl Road_Constr_Zone_Wrkr_Fl  \
+0                 35                   N                        N   
+1                 70                   N                        N   
+
+  At_Intrsct_Fl Rpt_Sec_Block_Num Rpt_Sec_Street_Name Rpt_Sec_Street_Sfx  \
+0             Y              4700        CASTLE CROSS                NaN   
+1             N               500                FAIR                AVE   
+
+  Investigat_Notify_Time Investigat_Notify_Meth Investigat_Arrv_Time  \
+0                9:20 AM    DRIVER APPROCHED ME              9:40 AM   
+1                5:27 PM                   DISP              5:33 PM   
+
+  Report_Date Investigat_Comp_Fl ORI_Number   Latitude  Longitude Hwy_Sys  \
+0    1/3/2013                  Y  TXSPD0000  29.486023 -98.371842     NaN   
+1    1/2/2013                  Y  TXSPD0000  29.383165 -98.468348      IH   
+
+  Hwy_Nbr      Dfo      Street_Name  Street_Nbr  Control  Section  Milepoint  \
+0     NaN      NaN  CASTLE CROSS DR      4733.0      NaN      NaN        NaN   
+1      37  138.641           IH0037         NaN     73.0      8.0      8.199   
+
+  Ref_Mark_Nbr  Ref_Mark_Displ Street_Name_2 Txdot_Rptable_Fl Onsys_Fl  \
+0          NaN             NaN       UNKNOWN                Y        N   
+1          139          -0.156           NaN                Y        Y   
+
+  Rural_Fl Located_Fl Day_of_Week  Hp_Shldr_Left  Hp_Shldr_Right  \
+0        N          Y         THU            NaN             NaN   
+1        N          Y         WED           10.0            10.0   
+
+   Hp_Median_Width  Nbr_Of_Lane  Row_Width_Usual  Roadbed_Width  Surf_Width  \
+0              NaN          NaN              NaN            NaN         NaN   
+1             60.0          8.0            360.0          136.0        96.0   
+
+   Shldr_Width_Left  Shldr_Width_Right  Median_Width  Adt_Curnt_Amt  \
+0               NaN                NaN           NaN            NaN   
+1              20.0               20.0          40.0       121569.0   
+
+   Adt_Curnt_Year  Adt_Adj_Curnt_Amt  Pct_Single_Trk_Adt  Pct_Combo_Trk_Adt  \
+0             NaN                NaN                 NaN                NaN   
+1          2014.0           121569.0                 2.3                1.4   
+
+   Trk_Aadt_Pct  Incap_Injry_Cnt  Nonincap_Injry_Cnt  Poss_Injry_Cnt  \
+0           NaN                0                   0               0   
+1           3.7                0                   0               0   
+
+   Non_Injry_Cnt  Unkn_Injry_Cnt  Tot_Injry_Cnt  Death_Cnt  \
+0              1               1              0          0   
+1              2               0              0          0   
+
+    CrashDateFormated  Crash_Fatal_Fl_01  Cmv_Involv_Fl_01  Schl_Bus_Fl_01  \
+0 2013-01-03 08:40:00                  0                 0               0   
+1 2013-01-02 17:00:00                  0                 0               0   
+
+   Rr_Relat_Fl_01  Medical_Advisory_Fl_01  Amend_Supp_Fl_01  \
+0               0                       0                 0   
+1               0                       0                 0   
+
+   Active_School_Zone_Fl_01  Rpt_Outside_City_Limit_Fl_01  \
+0                         0                             0   
+1                         0                             0   
+
+   Thousand_Damage_Fl_01  Private_Dr_Fl_01  Toll_Road_Fl_01  \
+0                      1                 0                0   
+1                      1                 0                0   
+
+   Road_Constr_Zone_Fl_01  Road_Constr_Zone_Wrkr_Fl_01  At_Intrsct_Fl_01  \
+0                       0                            0                 1   
+1                       0                            0                 0   
+
+   Investigat_Comp_Fl_01  Txdot_Rptable_Fl_01  Onsys_Fl_01  Rural_Fl_01  \
+0                      1                    1            0            0   
+1                      1                    1            1            0   
+
+   Located_Fl_01  
+0              1  
+1              1  
+root - INFO - Remaining number of columns after thinning out: 92
+root - INFO - Subset 'subSetGeoMotorVehicleCrashes.csv' exported.
+root - INFO - 
+Total count of rows in Dataframe: 5258
+root - INFO - 
+Scatterplot
+root - INFO - 
+starting matrix
+root - INFO - matrix done
+root - INFO - None
+root - INFO - Scatterplot done
+root - INFO - 
+
+
+***************************************************************************
+root - INFO - Finished
