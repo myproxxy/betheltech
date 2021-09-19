@@ -1,2 +1,0 @@
-# testproject
-testing git functionality
